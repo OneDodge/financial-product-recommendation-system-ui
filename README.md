@@ -5,6 +5,11 @@ This is a sample UI project for [Financial Product Recommendation System](https:
 ## Backend Server
 If you want to get hold of the latest Backend please visit [Financial Product Recommendation System](https://github.com/OneDodge/financial-product-recommendation-system)
 
+## Usage
+### 1) Build and Run the project
+```
+Use XCode to import project ./financial product recommendation system ui.xcodeproj
+```
 
 ## Layout
 ### Home
