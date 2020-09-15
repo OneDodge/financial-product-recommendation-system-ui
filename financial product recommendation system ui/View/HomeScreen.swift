@@ -30,6 +30,8 @@ struct HomeScreen: View {
                 
                 WOWchCardView(productName: pr.name, maketName: "NASDAQ", ccy: "USD", price: 121, gainloss: -12, gainlossPercentage: 1.2, friendsFollowing: 1, friendsHolding: 1 )
             }
+        }.onAppear {
+            self.productRecommendationViewModel.getProductRecommendations()
         }
 //        .colorInvert()
     }
