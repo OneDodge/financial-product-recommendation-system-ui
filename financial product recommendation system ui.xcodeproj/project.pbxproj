@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 53;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		925A4D7E250F38DC00DFED1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4D7D250F38DC00DFED1E /* AppDelegate.swift */; };
+		925A4D80250F38DC00DFED1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4D7F250F38DC00DFED1E /* SceneDelegate.swift */; };
+		925A4D85250F38DC00DFED1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4D84250F38DC00DFED1E /* ContentView.swift */; };
+		925A4D87250F38DD00DFED1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925A4D86250F38DD00DFED1E /* Assets.xcassets */; };
+		925A4D8A250F38DD00DFED1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925A4D89250F38DD00DFED1E /* Preview Assets.xcassets */; };
+		925A4D8D250F38DD00DFED1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925A4D8B250F38DD00DFED1E /* LaunchScreen.storyboard */; };
+		925A4D98250F38DD00DFED1E /* financial_product_recommendation_system_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4D97250F38DD00DFED1E /* financial_product_recommendation_system_uiTests.swift */; };
+		925A4DA3250F38DD00DFED1E /* financial_product_recommendation_system_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DA2250F38DD00DFED1E /* financial_product_recommendation_system_uiUITests.swift */; };
+		925A4DB1250F3CB200DFED1E /* MapUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DB0250F3CB200DFED1E /* MapUIView.swift */; };
+		925A4DB7250F42B100DFED1E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DB6250F42B100DFED1E /* CircleImage.swift */; };
+		925A4DBD250F460100DFED1E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DBC250F460100DFED1E /* User.swift */; };
+		925A4DBF250F46AF00DFED1E /* ProductRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DBE250F46AF00DFED1E /* ProductRecommendation.swift */; };
+		925A4DC6250F49CA00DFED1E /* ProductRecommendationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DC5250F49CA00DFED1E /* ProductRecommendationRow.swift */; };
+		925A4DCC250F4E4300DFED1E /* ProductRecommendationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DCB250F4E4300DFED1E /* ProductRecommendationApi.swift */; };
+		925A4DD2250F808500DFED1E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DD1250F808500DFED1E /* HomeScreen.swift */; };
+		925A4DD4250F81ED00DFED1E /* RecommendationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DD3250F81ED00DFED1E /* RecommendationRow.swift */; };
+		925A4DD7250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DD5250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodeld */; };
+		925A4DDA250F965000DFED1E /* ProductRecommendationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DD9250F965000DFED1E /* ProductRecommendationViewModel.swift */; };
+		925A4DDE250FC36700DFED1E /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DDD250FC36700DFED1E /* AppView.swift */; };
+		925A4DE2250FCD3400DFED1E /* FriendsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DE1250FCD3400DFED1E /* FriendsViewModel.swift */; };
+		925A4DE4250FCD6300DFED1E /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DE3250FCD6300DFED1E /* Friend.swift */; };
+		925A4DE6250FCF9500DFED1E /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DE5250FCF9500DFED1E /* FriendsView.swift */; };
+		925A4DEA250FE53500DFED1E /* SearchProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DE9250FE53500DFED1E /* SearchProductView.swift */; };
+		925A4DEC250FE54D00DFED1E /* YourPortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DEB250FE54D00DFED1E /* YourPortfolioView.swift */; };
+		925A4DEE250FF3BE00DFED1E /* Holding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DED250FF3BE00DFED1E /* Holding.swift */; };
+		925A4DF0250FF45600DFED1E /* HoldingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DEF250FF45600DFED1E /* HoldingsViewModel.swift */; };
+		925A4DF2250FFC8600DFED1E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DF1250FFC8600DFED1E /* SearchBarView.swift */; };
+		925A4DF4250FFD5500DFED1E /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DF3250FFD5500DFED1E /* ProductsViewModel.swift */; };
+		925A4DF6250FFD8100DFED1E /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DF5250FFD8100DFED1E /* Products.swift */; };
+		92A9AA882510A1DB00555FEA /* WOWchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A9AA872510A1DB00555FEA /* WOWchCardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925A4D94250F38DD00DFED1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925A4D72250F38DC00DFED1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925A4D79250F38DC00DFED1E;
+			remoteInfo = "financial product recommendation system ui";
+		};
+		925A4D9F250F38DD00DFED1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 925A4D72250F38DC00DFED1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925A4D79250F38DC00DFED1E;
+			remoteInfo = "financial product recommendation system ui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		925A4D7A250F38DC00DFED1E /* financial product recommendation system ui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "financial product recommendation system ui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925A4D7D250F38DC00DFED1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		925A4D7F250F38DC00DFED1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		925A4D84250F38DC00DFED1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		925A4D86250F38DD00DFED1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		925A4D89250F38DD00DFED1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		925A4D8C250F38DD00DFED1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		925A4D8E250F38DD00DFED1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925A4D93250F38DD00DFED1E /* financial product recommendation system uiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "financial product recommendation system uiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925A4D97250F38DD00DFED1E /* financial_product_recommendation_system_uiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financial_product_recommendation_system_uiTests.swift; sourceTree = "<group>"; };
+		925A4D99250F38DD00DFED1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925A4D9E250F38DD00DFED1E /* financial product recommendation system uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "financial product recommendation system uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		925A4DA2250F38DD00DFED1E /* financial_product_recommendation_system_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financial_product_recommendation_system_uiUITests.swift; sourceTree = "<group>"; };
+		925A4DA4250F38DD00DFED1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925A4DB0250F3CB200DFED1E /* MapUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUIView.swift; sourceTree = "<group>"; };
+		925A4DB6250F42B100DFED1E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		925A4DBC250F460100DFED1E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		925A4DBE250F46AF00DFED1E /* ProductRecommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecommendation.swift; sourceTree = "<group>"; };
+		925A4DC5250F49CA00DFED1E /* ProductRecommendationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecommendationRow.swift; sourceTree = "<group>"; };
+		925A4DCB250F4E4300DFED1E /* ProductRecommendationApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecommendationApi.swift; sourceTree = "<group>"; };
+		925A4DD1250F808500DFED1E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		925A4DD3250F81ED00DFED1E /* RecommendationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationRow.swift; sourceTree = "<group>"; };
+		925A4DD6250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = financial_product_recommendation_system_ui.xcdatamodel; sourceTree = "<group>"; };
+		925A4DD9250F965000DFED1E /* ProductRecommendationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecommendationViewModel.swift; sourceTree = "<group>"; };
+		925A4DDD250FC36700DFED1E /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		925A4DE1250FCD3400DFED1E /* FriendsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewModel.swift; sourceTree = "<group>"; };
+		925A4DE3250FCD6300DFED1E /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		925A4DE5250FCF9500DFED1E /* FriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
+		925A4DE9250FE53500DFED1E /* SearchProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchProductView.swift; sourceTree = "<group>"; };
+		925A4DEB250FE54D00DFED1E /* YourPortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPortfolioView.swift; sourceTree = "<group>"; };
+		925A4DED250FF3BE00DFED1E /* Holding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holding.swift; sourceTree = "<group>"; };
+		925A4DEF250FF45600DFED1E /* HoldingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsViewModel.swift; sourceTree = "<group>"; };
+		925A4DF1250FFC8600DFED1E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		925A4DF3250FFD5500DFED1E /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		925A4DF5250FFD8100DFED1E /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		92A9AA872510A1DB00555FEA /* WOWchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WOWchCardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		925A4D77250F38DC00DFED1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925A4D90250F38DD00DFED1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925A4D9B250F38DD00DFED1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		925A4D71250F38DC00DFED1E = {
+			isa = PBXGroup;
+			children = (
+				925A4D7C250F38DC00DFED1E /* financial product recommendation system ui */,
+				925A4D96250F38DD00DFED1E /* financial product recommendation system uiTests */,
+				925A4DA1250F38DD00DFED1E /* financial product recommendation system uiUITests */,
+				925A4D7B250F38DC00DFED1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		925A4D7B250F38DC00DFED1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				925A4D7A250F38DC00DFED1E /* financial product recommendation system ui.app */,
+				925A4D93250F38DD00DFED1E /* financial product recommendation system uiTests.xctest */,
+				925A4D9E250F38DD00DFED1E /* financial product recommendation system uiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		925A4D7C250F38DC00DFED1E /* financial product recommendation system ui */ = {
+			isa = PBXGroup;
+			children = (
+				925A4DD8250F963B00DFED1E /* ViewModel */,
+				925A4DC8250F4BEA00DFED1E /* Client */,
+				925A4DC0250F486700DFED1E /* Resources */,
+				925A4DB8250F45A100DFED1E /* Models */,
+				925A4D7D250F38DC00DFED1E /* AppDelegate.swift */,
+				925A4DD5250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodeld */,
+				925A4D7F250F38DC00DFED1E /* SceneDelegate.swift */,
+				925A4D84250F38DC00DFED1E /* ContentView.swift */,
+				925A4DB0250F3CB200DFED1E /* MapUIView.swift */,
+				925A4D86250F38DD00DFED1E /* Assets.xcassets */,
+				925A4D8B250F38DD00DFED1E /* LaunchScreen.storyboard */,
+				925A4D8E250F38DD00DFED1E /* Info.plist */,
+				925A4D88250F38DD00DFED1E /* Preview Content */,
+				925A4DB6250F42B100DFED1E /* CircleImage.swift */,
+				925A4DC5250F49CA00DFED1E /* ProductRecommendationRow.swift */,
+				92A9AA872510A1DB00555FEA /* WOWchCardView.swift */,
+				925A4DD1250F808500DFED1E /* HomeScreen.swift */,
+				925A4DD3250F81ED00DFED1E /* RecommendationRow.swift */,
+				925A4DDD250FC36700DFED1E /* AppView.swift */,
+				925A4DE5250FCF9500DFED1E /* FriendsView.swift */,
+				925A4DE9250FE53500DFED1E /* SearchProductView.swift */,
+				925A4DEB250FE54D00DFED1E /* YourPortfolioView.swift */,
+				925A4DF1250FFC8600DFED1E /* SearchBarView.swift */,
+			);
+			path = "financial product recommendation system ui";
+			sourceTree = "<group>";
+		};
+		925A4D88250F38DD00DFED1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				925A4D89250F38DD00DFED1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		925A4D96250F38DD00DFED1E /* financial product recommendation system uiTests */ = {
+			isa = PBXGroup;
+			children = (
+				925A4D97250F38DD00DFED1E /* financial_product_recommendation_system_uiTests.swift */,
+				925A4D99250F38DD00DFED1E /* Info.plist */,
+			);
+			path = "financial product recommendation system uiTests";
+			sourceTree = "<group>";
+		};
+		925A4DA1250F38DD00DFED1E /* financial product recommendation system uiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				925A4DA2250F38DD00DFED1E /* financial_product_recommendation_system_uiUITests.swift */,
+				925A4DA4250F38DD00DFED1E /* Info.plist */,
+			);
+			path = "financial product recommendation system uiUITests";
+			sourceTree = "<group>";
+		};
+		925A4DB8250F45A100DFED1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				925A4DBC250F460100DFED1E /* User.swift */,
+				925A4DBE250F46AF00DFED1E /* ProductRecommendation.swift */,
+				925A4DE3250FCD6300DFED1E /* Friend.swift */,
+				925A4DED250FF3BE00DFED1E /* Holding.swift */,
+				925A4DF5250FFD8100DFED1E /* Products.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		925A4DC0250F486700DFED1E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		925A4DC8250F4BEA00DFED1E /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				925A4DCB250F4E4300DFED1E /* ProductRecommendationApi.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		925A4DD8250F963B00DFED1E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				925A4DD9250F965000DFED1E /* ProductRecommendationViewModel.swift */,
+				925A4DE1250FCD3400DFED1E /* FriendsViewModel.swift */,
+				925A4DEF250FF45600DFED1E /* HoldingsViewModel.swift */,
+				925A4DF3250FFD5500DFED1E /* ProductsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		925A4D79250F38DC00DFED1E /* financial product recommendation system ui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925A4DA7250F38DD00DFED1E /* Build configuration list for PBXNativeTarget "financial product recommendation system ui" */;
+			buildPhases = (
+				925A4D76250F38DC00DFED1E /* Sources */,
+				925A4D77250F38DC00DFED1E /* Frameworks */,
+				925A4D78250F38DC00DFED1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "financial product recommendation system ui";
+			productName = "financial product recommendation system ui";
+			productReference = 925A4D7A250F38DC00DFED1E /* financial product recommendation system ui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925A4D92250F38DD00DFED1E /* financial product recommendation system uiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925A4DAA250F38DD00DFED1E /* Build configuration list for PBXNativeTarget "financial product recommendation system uiTests" */;
+			buildPhases = (
+				925A4D8F250F38DD00DFED1E /* Sources */,
+				925A4D90250F38DD00DFED1E /* Frameworks */,
+				925A4D91250F38DD00DFED1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925A4D95250F38DD00DFED1E /* PBXTargetDependency */,
+			);
+			name = "financial product recommendation system uiTests";
+			productName = "financial product recommendation system uiTests";
+			productReference = 925A4D93250F38DD00DFED1E /* financial product recommendation system uiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		925A4D9D250F38DD00DFED1E /* financial product recommendation system uiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925A4DAD250F38DD00DFED1E /* Build configuration list for PBXNativeTarget "financial product recommendation system uiUITests" */;
+			buildPhases = (
+				925A4D9A250F38DD00DFED1E /* Sources */,
+				925A4D9B250F38DD00DFED1E /* Frameworks */,
+				925A4D9C250F38DD00DFED1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925A4DA0250F38DD00DFED1E /* PBXTargetDependency */,
+			);
+			name = "financial product recommendation system uiUITests";
+			productName = "financial product recommendation system uiUITests";
+			productReference = 925A4D9E250F38DD00DFED1E /* financial product recommendation system uiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		925A4D72250F38DC00DFED1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Frank NGAI";
+				TargetAttributes = {
+					925A4D79250F38DC00DFED1E = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					925A4D92250F38DD00DFED1E = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 925A4D79250F38DC00DFED1E;
+					};
+					925A4D9D250F38DD00DFED1E = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 925A4D79250F38DC00DFED1E;
+					};
+				};
+			};
+			buildConfigurationList = 925A4D75250F38DC00DFED1E /* Build configuration list for PBXProject "financial product recommendation system ui" */;
+			compatibilityVersion = "Xcode 11.4";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 925A4D71250F38DC00DFED1E;
+			productRefGroup = 925A4D7B250F38DC00DFED1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				925A4D79250F38DC00DFED1E /* financial product recommendation system ui */,
+				925A4D92250F38DD00DFED1E /* financial product recommendation system uiTests */,
+				925A4D9D250F38DD00DFED1E /* financial product recommendation system uiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		925A4D78250F38DC00DFED1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925A4D8D250F38DD00DFED1E /* LaunchScreen.storyboard in Resources */,
+				925A4D8A250F38DD00DFED1E /* Preview Assets.xcassets in Resources */,
+				925A4D87250F38DD00DFED1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925A4D91250F38DD00DFED1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925A4D9C250F38DD00DFED1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		925A4D76250F38DC00DFED1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925A4D7E250F38DC00DFED1E /* AppDelegate.swift in Sources */,
+				92A9AA882510A1DB00555FEA /* WOWchCardView.swift in Sources */,
+				925A4DEE250FF3BE00DFED1E /* Holding.swift in Sources */,
+				925A4DC6250F49CA00DFED1E /* ProductRecommendationRow.swift in Sources */,
+				925A4DCC250F4E4300DFED1E /* ProductRecommendationApi.swift in Sources */,
+				925A4DB1250F3CB200DFED1E /* MapUIView.swift in Sources */,
+				925A4D85250F38DC00DFED1E /* ContentView.swift in Sources */,
+				925A4DF4250FFD5500DFED1E /* ProductsViewModel.swift in Sources */,
+				925A4DBF250F46AF00DFED1E /* ProductRecommendation.swift in Sources */,
+				925A4DD4250F81ED00DFED1E /* RecommendationRow.swift in Sources */,
+				925A4DDE250FC36700DFED1E /* AppView.swift in Sources */,
+				925A4DD2250F808500DFED1E /* HomeScreen.swift in Sources */,
+				925A4DF0250FF45600DFED1E /* HoldingsViewModel.swift in Sources */,
+				925A4DE6250FCF9500DFED1E /* FriendsView.swift in Sources */,
+				925A4D80250F38DC00DFED1E /* SceneDelegate.swift in Sources */,
+				925A4DD7250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodeld in Sources */,
+				925A4DEA250FE53500DFED1E /* SearchProductView.swift in Sources */,
+				925A4DE2250FCD3400DFED1E /* FriendsViewModel.swift in Sources */,
+				925A4DB7250F42B100DFED1E /* CircleImage.swift in Sources */,
+				925A4DBD250F460100DFED1E /* User.swift in Sources */,
+				925A4DF2250FFC8600DFED1E /* SearchBarView.swift in Sources */,
+				925A4DDA250F965000DFED1E /* ProductRecommendationViewModel.swift in Sources */,
+				925A4DF6250FFD8100DFED1E /* Products.swift in Sources */,
+				925A4DE4250FCD6300DFED1E /* Friend.swift in Sources */,
+				925A4DEC250FE54D00DFED1E /* YourPortfolioView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925A4D8F250F38DD00DFED1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925A4D98250F38DD00DFED1E /* financial_product_recommendation_system_uiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925A4D9A250F38DD00DFED1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925A4DA3250F38DD00DFED1E /* financial_product_recommendation_system_uiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925A4D95250F38DD00DFED1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925A4D79250F38DC00DFED1E /* financial product recommendation system ui */;
+			targetProxy = 925A4D94250F38DD00DFED1E /* PBXContainerItemProxy */;
+		};
+		925A4DA0250F38DD00DFED1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925A4D79250F38DC00DFED1E /* financial product recommendation system ui */;
+			targetProxy = 925A4D9F250F38DD00DFED1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		925A4D8B250F38DD00DFED1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				925A4D8C250F38DD00DFED1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		925A4DA5250F38DD00DFED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		925A4DA6250F38DD00DFED1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		925A4DA8250F38DD00DFED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"financial product recommendation system ui/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "financial product recommendation system ui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onedodge.financial-product-recommendation-system-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		925A4DA9250F38DD00DFED1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"financial product recommendation system ui/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "financial product recommendation system ui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onedodge.financial-product-recommendation-system-ui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		925A4DAB250F38DD00DFED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "financial product recommendation system uiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onedodge.financial-product-recommendation-system-uiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/financial product recommendation system ui.app/financial product recommendation system ui";
+			};
+			name = Debug;
+		};
+		925A4DAC250F38DD00DFED1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "financial product recommendation system uiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onedodge.financial-product-recommendation-system-uiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/financial product recommendation system ui.app/financial product recommendation system ui";
+			};
+			name = Release;
+		};
+		925A4DAE250F38DD00DFED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "financial product recommendation system uiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onedodge.financial-product-recommendation-system-uiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "financial product recommendation system ui";
+			};
+			name = Debug;
+		};
+		925A4DAF250F38DD00DFED1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "financial product recommendation system uiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.onedodge.financial-product-recommendation-system-uiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "financial product recommendation system ui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		925A4D75250F38DC00DFED1E /* Build configuration list for PBXProject "financial product recommendation system ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925A4DA5250F38DD00DFED1E /* Debug */,
+				925A4DA6250F38DD00DFED1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925A4DA7250F38DD00DFED1E /* Build configuration list for PBXNativeTarget "financial product recommendation system ui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925A4DA8250F38DD00DFED1E /* Debug */,
+				925A4DA9250F38DD00DFED1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925A4DAA250F38DD00DFED1E /* Build configuration list for PBXNativeTarget "financial product recommendation system uiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925A4DAB250F38DD00DFED1E /* Debug */,
+				925A4DAC250F38DD00DFED1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925A4DAD250F38DD00DFED1E /* Build configuration list for PBXNativeTarget "financial product recommendation system uiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925A4DAE250F38DD00DFED1E /* Debug */,
+				925A4DAF250F38DD00DFED1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		925A4DD5250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				925A4DD6250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodel */,
+			);
+			currentVersion = 925A4DD6250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodel */;
+			path = financial_product_recommendation_system_ui.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 925A4D72250F38DC00DFED1E /* Project object */;
+}
