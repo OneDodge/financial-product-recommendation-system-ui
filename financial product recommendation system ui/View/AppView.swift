@@ -14,7 +14,7 @@ struct AppView: View {
         TabView {
             HomeScreen().tabItem{
                 Image(systemName: "1.circle")
-                Text("Today").font(.subheadline)
+                Text("News").font(.subheadline)
             }.tag(0)
             
             YourPortfolioView().tabItem {

@@ -17,8 +17,8 @@ struct WOWchCardView: View {
     @State var gainloss: Float64
     @State var gainlossPercentage: Float64
     
-    @State var friendsFollowing: Float64
-    @State var friendsHolding: Float64
+    @State var friendsFollowing: Int
+    @State var friendsHolding: Int
     
 
     
@@ -27,9 +27,9 @@ struct WOWchCardView: View {
             .overlay(Text(productName).font(.largeTitle).bold().offset(x: 20, y: 10), alignment: .topLeading)
             .overlay(Text(maketName).font(.subheadline).bold().offset(x:20, y:50), alignment: .topLeading)
             .overlay(Text(String(price) + " " + ccy).bold().font(.headline).offset(x:-20, y:10), alignment: .topTrailing)
-            .overlay(Text(String(gainloss) + " (" + String(gainlossPercentage) + "%)").foregroundColor(Color.red).font(.subheadline).offset(x:-20, y: 40), alignment: .topTrailing)
-            .overlay(CardSubView(value: friendsFollowing, description: "Friends Following").offset(y: 30))
-            .overlay(CardSubView(value: friendsHolding, description: "Friends Holding").offset(y: 60))
+            .overlay(Text(String(gainloss) + " (" + String(gainlossPercentage) + "%)").foregroundColor(gainloss <= 0 ? Color.red: Color.green).font(.subheadline).offset(x:-20, y: 40), alignment: .topTrailing)
+            .overlay(CardSubView(value: friendsFollowing, description: "Friends Following").offset(x: 70, y: 30))
+            .overlay(CardSubView(value: friendsHolding, description: "Friends Holding").offset(x: 70, y: 60))
     }
 }
 
@@ -41,7 +41,7 @@ struct CardBorderView: View {
             .frame(height: 200).animation(.default).padding(5)
            .overlay(
                RoundedRectangle(cornerRadius: 16)
-                   .stroke(Color.blue, lineWidth: 2)
+                .stroke(Color(red: 0/255, green: 204/255, blue: 102/255), lineWidth: 2)
            ).onTapGesture {
                self.isShowDetail.toggle()
            }.sheet(isPresented: $isShowDetail) {
@@ -51,20 +51,20 @@ struct CardBorderView: View {
 }
 
 struct CardSubView: View {
-    @State var value: Float64
-    @State var description = "Friends Following"
+    @State var value: Int
+    @State var description: String
     
     var body: some View {
         return RoundedRectangle(cornerRadius: 16)
-            .foregroundColor(Color.blue)
-            .frame(height: 25)
-            .overlay(RoundedRectangle(cornerRadius: 16).foregroundColor(Color.white).frame(width: 50, height: 15, alignment: .topLeading).offset(x: -110))
-            .overlay(HStack(alignment: .center){
-            Spacer()
-                Text(String(value)).font(.subheadline).foregroundColor(Color.black).bold()
-            Spacer()
-                Text(description).foregroundColor(Color.white).bold()
-            Spacer()
+            .foregroundColor(Color(red: 0/255, green: 204/255, blue: 102/255))
+            .frame(width: 200, height: 25)
+            .overlay(RoundedRectangle(cornerRadius: 16).foregroundColor(Color.white).frame(width: 50, height: 15, alignment: .topLeading).offset(x: -70))
+            .overlay(HStack{
+                Text(String(value)).font(.subheadline).bold()
+                .foregroundColor(Color.black).frame(width: 55)
+                    
+                Text(description).font(.subheadline).bold().foregroundColor(Color.white).frame(width: 135, alignment: .topLeading)
+                    
         })
     }
 }
@@ -73,14 +73,17 @@ struct CardDetailView: View {
     @Binding var isPresented: Bool
     
     var body: some View {
-        Text("Close").onTapGesture {
-            self.isPresented = false
+        VStack {
+            Text("This is Detail View")
+            Text("Click Me TO Close").onTapGesture {
+                self.isPresented = false
+            }
         }
     }
 }
 
 struct WOWchCardView_Previews: PreviewProvider {
     static var previews: some View {
-        WOWchCardView(productName: "APPL", maketName: "NASDAQ", ccy: "USD", price: 129, gainloss: 11.23, gainlossPercentage: 1.1, friendsFollowing: 230, friendsHolding: 20)
+        WOWchCardView(productName: "APPL", maketName: "NASDAQ", ccy: "USD", price: 129, gainloss: 11.23, gainlossPercentage: 1.1, friendsFollowing: 1, friendsHolding: 10000)
     }
 }

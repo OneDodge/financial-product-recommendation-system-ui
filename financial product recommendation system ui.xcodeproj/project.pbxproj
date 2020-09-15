@@ -15,14 +15,10 @@
 		925A4D8D250F38DD00DFED1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925A4D8B250F38DD00DFED1E /* LaunchScreen.storyboard */; };
 		925A4D98250F38DD00DFED1E /* financial_product_recommendation_system_uiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4D97250F38DD00DFED1E /* financial_product_recommendation_system_uiTests.swift */; };
 		925A4DA3250F38DD00DFED1E /* financial_product_recommendation_system_uiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DA2250F38DD00DFED1E /* financial_product_recommendation_system_uiUITests.swift */; };
-		925A4DB1250F3CB200DFED1E /* MapUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DB0250F3CB200DFED1E /* MapUIView.swift */; };
-		925A4DB7250F42B100DFED1E /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DB6250F42B100DFED1E /* CircleImage.swift */; };
 		925A4DBD250F460100DFED1E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DBC250F460100DFED1E /* User.swift */; };
 		925A4DBF250F46AF00DFED1E /* ProductRecommendation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DBE250F46AF00DFED1E /* ProductRecommendation.swift */; };
-		925A4DC6250F49CA00DFED1E /* ProductRecommendationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DC5250F49CA00DFED1E /* ProductRecommendationRow.swift */; };
 		925A4DCC250F4E4300DFED1E /* ProductRecommendationApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DCB250F4E4300DFED1E /* ProductRecommendationApi.swift */; };
 		925A4DD2250F808500DFED1E /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DD1250F808500DFED1E /* HomeScreen.swift */; };
-		925A4DD4250F81ED00DFED1E /* RecommendationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DD3250F81ED00DFED1E /* RecommendationRow.swift */; };
 		925A4DD7250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DD5250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodeld */; };
 		925A4DDA250F965000DFED1E /* ProductRecommendationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DD9250F965000DFED1E /* ProductRecommendationViewModel.swift */; };
 		925A4DDE250FC36700DFED1E /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A4DDD250FC36700DFED1E /* AppView.swift */; };
@@ -71,14 +67,10 @@
 		925A4D9E250F38DD00DFED1E /* financial product recommendation system uiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "financial product recommendation system uiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		925A4DA2250F38DD00DFED1E /* financial_product_recommendation_system_uiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = financial_product_recommendation_system_uiUITests.swift; sourceTree = "<group>"; };
 		925A4DA4250F38DD00DFED1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		925A4DB0250F3CB200DFED1E /* MapUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUIView.swift; sourceTree = "<group>"; };
-		925A4DB6250F42B100DFED1E /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		925A4DBC250F460100DFED1E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		925A4DBE250F46AF00DFED1E /* ProductRecommendation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecommendation.swift; sourceTree = "<group>"; };
-		925A4DC5250F49CA00DFED1E /* ProductRecommendationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecommendationRow.swift; sourceTree = "<group>"; };
 		925A4DCB250F4E4300DFED1E /* ProductRecommendationApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecommendationApi.swift; sourceTree = "<group>"; };
 		925A4DD1250F808500DFED1E /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
-		925A4DD3250F81ED00DFED1E /* RecommendationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationRow.swift; sourceTree = "<group>"; };
 		925A4DD6250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = financial_product_recommendation_system_ui.xcdatamodel; sourceTree = "<group>"; };
 		925A4DD9250F965000DFED1E /* ProductRecommendationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRecommendationViewModel.swift; sourceTree = "<group>"; };
 		925A4DDD250FC36700DFED1E /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
@@ -227,12 +219,8 @@
 		92E05D102510F45700CD2F05 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				925A4DB0250F3CB200DFED1E /* MapUIView.swift */,
 				925A4DD1250F808500DFED1E /* HomeScreen.swift */,
-				925A4DB6250F42B100DFED1E /* CircleImage.swift */,
-				925A4DC5250F49CA00DFED1E /* ProductRecommendationRow.swift */,
 				92A9AA872510A1DB00555FEA /* WOWchCardView.swift */,
-				925A4DD3250F81ED00DFED1E /* RecommendationRow.swift */,
 				925A4DDD250FC36700DFED1E /* AppView.swift */,
 				925A4DE5250FCF9500DFED1E /* FriendsView.swift */,
 				925A4DE9250FE53500DFED1E /* SearchProductView.swift */,
@@ -376,13 +364,10 @@
 				925A4D7E250F38DC00DFED1E /* AppDelegate.swift in Sources */,
 				92A9AA882510A1DB00555FEA /* WOWchCardView.swift in Sources */,
 				925A4DEE250FF3BE00DFED1E /* Holding.swift in Sources */,
-				925A4DC6250F49CA00DFED1E /* ProductRecommendationRow.swift in Sources */,
 				925A4DCC250F4E4300DFED1E /* ProductRecommendationApi.swift in Sources */,
-				925A4DB1250F3CB200DFED1E /* MapUIView.swift in Sources */,
 				925A4D85250F38DC00DFED1E /* ContentView.swift in Sources */,
 				925A4DF4250FFD5500DFED1E /* ProductsViewModel.swift in Sources */,
 				925A4DBF250F46AF00DFED1E /* ProductRecommendation.swift in Sources */,
-				925A4DD4250F81ED00DFED1E /* RecommendationRow.swift in Sources */,
 				925A4DDE250FC36700DFED1E /* AppView.swift in Sources */,
 				925A4DD2250F808500DFED1E /* HomeScreen.swift in Sources */,
 				925A4DF0250FF45600DFED1E /* HoldingsViewModel.swift in Sources */,
@@ -391,7 +376,6 @@
 				925A4DD7250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodeld in Sources */,
 				925A4DEA250FE53500DFED1E /* SearchProductView.swift in Sources */,
 				925A4DE2250FCD3400DFED1E /* FriendsViewModel.swift in Sources */,
-				925A4DB7250F42B100DFED1E /* CircleImage.swift in Sources */,
 				925A4DBD250F460100DFED1E /* User.swift in Sources */,
 				925A4DF2250FFC8600DFED1E /* SearchBarView.swift in Sources */,
 				925A4DDA250F965000DFED1E /* ProductRecommendationViewModel.swift in Sources */,
