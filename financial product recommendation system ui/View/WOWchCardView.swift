@@ -10,15 +10,15 @@ import SwiftUI
 
 struct WOWchCardView: View {
     
-    @State var productName = "TSLA"
-    @State var maketName = "NASDAQ"
-    @State var ccy = "USD"
-    @State var price = 2213.40
-    @State var gainloss = -25.35
-    @State var gainlossPercentage = 1.13
+    @State var productName: String
+    @State var maketName: String
+    @State var ccy: String
+    @State var price: Float64
+    @State var gainloss: Float64
+    @State var gainlossPercentage: Float64
     
-    @State var friendsFollowing = 2
-    @State var friendsHolding = 2
+    @State var friendsFollowing: Float64
+    @State var friendsHolding: Float64
     
 
     
@@ -51,7 +51,7 @@ struct CardBorderView: View {
 }
 
 struct CardSubView: View {
-    @State var value = 230
+    @State var value: Float64
     @State var description = "Friends Following"
     
     var body: some View {

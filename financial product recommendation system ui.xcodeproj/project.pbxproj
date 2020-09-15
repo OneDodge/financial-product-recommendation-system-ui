@@ -143,6 +143,7 @@
 		925A4D7C250F38DC00DFED1E /* financial product recommendation system ui */ = {
 			isa = PBXGroup;
 			children = (
+				92E05D102510F45700CD2F05 /* View */,
 				925A4DD8250F963B00DFED1E /* ViewModel */,
 				925A4DC8250F4BEA00DFED1E /* Client */,
 				925A4DC0250F486700DFED1E /* Resources */,
@@ -151,21 +152,10 @@
 				925A4DD5250F915F00DFED1E /* financial_product_recommendation_system_ui.xcdatamodeld */,
 				925A4D7F250F38DC00DFED1E /* SceneDelegate.swift */,
 				925A4D84250F38DC00DFED1E /* ContentView.swift */,
-				925A4DB0250F3CB200DFED1E /* MapUIView.swift */,
 				925A4D86250F38DD00DFED1E /* Assets.xcassets */,
 				925A4D8B250F38DD00DFED1E /* LaunchScreen.storyboard */,
 				925A4D8E250F38DD00DFED1E /* Info.plist */,
 				925A4D88250F38DD00DFED1E /* Preview Content */,
-				925A4DB6250F42B100DFED1E /* CircleImage.swift */,
-				925A4DC5250F49CA00DFED1E /* ProductRecommendationRow.swift */,
-				92A9AA872510A1DB00555FEA /* WOWchCardView.swift */,
-				925A4DD1250F808500DFED1E /* HomeScreen.swift */,
-				925A4DD3250F81ED00DFED1E /* RecommendationRow.swift */,
-				925A4DDD250FC36700DFED1E /* AppView.swift */,
-				925A4DE5250FCF9500DFED1E /* FriendsView.swift */,
-				925A4DE9250FE53500DFED1E /* SearchProductView.swift */,
-				925A4DEB250FE54D00DFED1E /* YourPortfolioView.swift */,
-				925A4DF1250FFC8600DFED1E /* SearchBarView.swift */,
 			);
 			path = "financial product recommendation system ui";
 			sourceTree = "<group>";
@@ -232,6 +222,24 @@
 				925A4DF3250FFD5500DFED1E /* ProductsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		92E05D102510F45700CD2F05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				925A4DB0250F3CB200DFED1E /* MapUIView.swift */,
+				925A4DD1250F808500DFED1E /* HomeScreen.swift */,
+				925A4DB6250F42B100DFED1E /* CircleImage.swift */,
+				925A4DC5250F49CA00DFED1E /* ProductRecommendationRow.swift */,
+				92A9AA872510A1DB00555FEA /* WOWchCardView.swift */,
+				925A4DD3250F81ED00DFED1E /* RecommendationRow.swift */,
+				925A4DDD250FC36700DFED1E /* AppView.swift */,
+				925A4DE5250FCF9500DFED1E /* FriendsView.swift */,
+				925A4DE9250FE53500DFED1E /* SearchProductView.swift */,
+				925A4DEB250FE54D00DFED1E /* YourPortfolioView.swift */,
+				925A4DF1250FFC8600DFED1E /* SearchBarView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

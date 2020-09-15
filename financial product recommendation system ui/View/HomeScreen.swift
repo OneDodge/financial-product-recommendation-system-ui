@@ -22,9 +22,11 @@ struct HomeScreen: View {
             HStack{
                 Text("Today").bold().font(.largeTitle)
                 Spacer()
-                Image(systemName: "faceid").font(.headline)
+                Image("turtlerock").resizable()
+                .frame(width: 40, height: 40)
+                .clipShape(Circle())
             }
-            ForEach(self.productRecommendationViewModel.productRecommendations.prefix(10), id: \.name) { (pr) in
+            ForEach(self.productRecommendationViewModel.productRecommendations.prefix(5), id: \.name) { (pr) in
                 
                 WOWchCardView(productName: pr.name, maketName: "NASDAQ", ccy: "USD", price: 121, gainloss: -12, gainlossPercentage: 1.2, friendsFollowing: 1, friendsHolding: 1 )
             }
