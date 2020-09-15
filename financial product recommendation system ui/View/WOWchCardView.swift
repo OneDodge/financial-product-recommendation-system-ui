@@ -28,8 +28,8 @@ struct WOWchCardView: View {
             .overlay(Text(maketName).font(.subheadline).bold().offset(x:20, y:50), alignment: .topLeading)
             .overlay(Text(String(price) + " " + ccy).bold().font(.headline).offset(x:-20, y:10), alignment: .topTrailing)
             .overlay(Text(String(gainloss) + " (" + String(gainlossPercentage) + "%)").foregroundColor(gainloss <= 0 ? Color.red: Color.green).font(.subheadline).offset(x:-20, y: 40), alignment: .topTrailing)
-            .overlay(CardSubView(value: friendsFollowing, description: "Friends Following").offset(x: 70, y: 30))
-            .overlay(CardSubView(value: friendsHolding, description: "Friends Holding").offset(x: 70, y: 60))
+            .overlay(CardSubView(value: friendsFollowing, description: "Friends Following").offset(x: -20, y: -10), alignment: .bottomTrailing)
+            .overlay(CardSubView(value: friendsHolding, description: "Friends Holding").offset(x: -20, y: -40), alignment: .bottomTrailing)
     }
 }
 
