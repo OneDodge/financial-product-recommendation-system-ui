@@ -20,7 +20,7 @@ struct HomeScreen: View {
 //            Spacer()
             Text("\(Date(), formatter: formatter)")
             HStack{
-                Text("News").bold().font(.largeTitle)
+                Text("WOWch List").bold().font(.largeTitle)
                 Spacer()
                 Image("turtlerock").resizable()
                 .frame(width: 40, height: 40)

@@ -14,7 +14,7 @@ struct AppView: View {
         TabView {
             HomeScreen().tabItem {
                 Image(systemName: "1.circle")
-                Text("News").font(.subheadline)
+                Text("WOWch").font(.subheadline)
             }.tag(0)
             
             AlertsView().tabItem {
