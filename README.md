@@ -8,7 +8,7 @@ If you want to get hold of the latest Backend please visit [Financial Product Re
 
 ## Layout
 ### Home
-![Image of Product Recommendation API](api-doc/home.png | width=100)
+![Image of Product Recommendation API](https://github.com/OneDodge/financial-product-recommendation-system-ui/blob/master/api-doc/home.png | width=100)
 
 ### Portfolio
 ![Image of Product Recommendation API](api-doc/portfolio.png)
