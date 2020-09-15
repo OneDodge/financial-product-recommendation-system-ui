@@ -8,7 +8,7 @@ If you want to get hold of the latest Backend please visit [Financial Product Re
 
 ## Layout
 ### Home
-![Image of Product Recommendation API](api-doc/home.png)
+![Image of Product Recommendation API](api-doc/home.png | width=100)
 
 ### Portfolio
 ![Image of Product Recommendation API](api-doc/portfolio.png)
