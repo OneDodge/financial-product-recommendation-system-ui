@@ -38,7 +38,7 @@ struct CardBorderView: View {
     
     var body: some View {
          return Rectangle().fill(Color.white)
-            .frame(height: 200).animation(.default).padding(5)
+            .frame(height: 150).animation(.default).padding(5)
            .overlay(
                RoundedRectangle(cornerRadius: 16)
                 .stroke(Color(red: 0/255, green: 204/255, blue: 102/255), lineWidth: 2)
